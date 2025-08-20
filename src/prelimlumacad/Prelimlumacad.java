@@ -9,8 +9,17 @@ public class Prelimlumacad {
        
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Enter price of Item: ");
-        int item = sc.nextInt();
+        System.out.print("Enter price of Item: ");
+        double item = sc.nextDouble();
+        
+        System.out.print("Enter quantity: ");
+        double quan = sc.nextDouble();
+        
+        double total = (item * quan);
+        
+        System.out.println("Total amount "+total);
+                
+        
     
 }
 }
